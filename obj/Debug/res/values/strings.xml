@@ -1,0 +1,1 @@
+<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">BeepBeep</string><string name="gas_station">Gas station</string><string name="fuel_type">Fuel type</string><string name="price">Price</string><string name="liters">Liters</string><string name="mileage">Mileage</string><string name="submit">Submit</string></resources>
