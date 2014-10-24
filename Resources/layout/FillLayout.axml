@@ -37,9 +37,10 @@
             p1:textAppearance="?android:attr/textAppearanceLarge"
             p1:layout_column="0"
             p1:id="@+id/textView14" />
-        <NumberPicker
+        <EditText
+            p1:inputType="number"
             p1:layout_column="1"
-            p1:id="@+id/numberPicker1" />
+            p1:id="@+id/editText2" />
     </TableRow>
     <TableRow
         p1:minWidth="25px"
@@ -50,10 +51,10 @@
             p1:textAppearance="?android:attr/textAppearanceLarge"
             p1:layout_column="0"
             p1:id="@+id/textView38" />
-        <NumberPicker
+        <EditText
+            p1:inputType="number"
             p1:layout_column="1"
-            p1:id="@+id/numberPicker2"
-            p1:layout_width="86.2dp" />
+            p1:id="@+id/editText3" />
     </TableRow>
     <TableRow
         p1:minWidth="25px"
@@ -70,6 +71,6 @@
             p1:id="@+id/editText1" />
     </TableRow>
     <Button
-        p1:text="Button"
+        p1:text="@string/submit"
         p1:id="@+id/button1" />
 </TableLayout>

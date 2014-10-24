@@ -29,9 +29,9 @@ public final class R {
     public static final class id {
         public static final int button1=0x7f06000f;
         public static final int editText1=0x7f06000e;
+        public static final int editText2=0x7f060009;
+        public static final int editText3=0x7f06000c;
         public static final int fuelTypeSpinner=0x7f060006;
-        public static final int numberPicker1=0x7f060009;
-        public static final int numberPicker2=0x7f06000c;
         public static final int stationSpinner=0x7f060003;
         public static final int tableLayout1=0x7f060000;
         public static final int tableRow1=0x7f060001;

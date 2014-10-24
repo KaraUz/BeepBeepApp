@@ -105,14 +105,14 @@ namespace BeepBeep
 			// aapt resource value: 0x7f06000e
 			public const int editText1 = 2131099662;
 			
-			// aapt resource value: 0x7f060006
-			public const int fuelTypeSpinner = 2131099654;
-			
 			// aapt resource value: 0x7f060009
-			public const int numberPicker1 = 2131099657;
+			public const int editText2 = 2131099657;
 			
 			// aapt resource value: 0x7f06000c
-			public const int numberPicker2 = 2131099660;
+			public const int editText3 = 2131099660;
+			
+			// aapt resource value: 0x7f060006
+			public const int fuelTypeSpinner = 2131099654;
 			
 			// aapt resource value: 0x7f060003
 			public const int stationSpinner = 2131099651;
