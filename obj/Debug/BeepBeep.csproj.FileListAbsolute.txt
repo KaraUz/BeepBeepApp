@@ -88,3 +88,8 @@ C:\Users\Paul\Documents\GitHub\BeepBeepApp\obj\Debug\res\layout\main.xml
 C:\Users\Paul\Documents\GitHub\BeepBeepApp\obj\Debug\res\layout\filllayout.xml
 C:\Users\Paul\Documents\GitHub\BeepBeepApp\obj\Debug\R.cs.flag
 C:\Users\Paul\Documents\GitHub\BeepBeepApp\obj\Debug\uploadflags.txt
+C:\Users\Paul\Documents\GitHub\BeepBeepApp\obj\Debug\BeepBeep.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\GitHub\BeepBeepApp\bin\Debug\Parse.Android.dll
+C:\Users\Paul\Documents\GitHub\BeepBeepApp\bin\Debug\Parse.Android.xml
+C:\Users\Paul\Documents\GitHub\BeepBeepApp\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Paul\Documents\GitHub\BeepBeepApp\bin\Debug\Xamarin.Facebook.dll

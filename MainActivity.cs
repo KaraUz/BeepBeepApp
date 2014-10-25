@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Parse;
 
 namespace BeepBeep
 {
@@ -23,8 +24,12 @@ namespace BeepBeep
 			CreateTab(typeof(FillActivity), "sessions", "Fill", Resource.Drawable.ic_tab_sessions);
 			CreateTab(typeof(ListActivity), "my_schedule", "List", Resource.Drawable.ic_tab_my_schedule);
 			CreateTab(typeof(StatsActivity), "my_schedule", "Stats", Resource.Drawable.ic_tab_my_schedule);
-		}
 
+	
+		}
+		protected override void OnResume() {
+
+		}
 
 		private void CreateTab(Type activityType, string tag, string label, int drawableId )
 		{
@@ -39,6 +44,8 @@ namespace BeepBeep
 			TabHost.AddTab(spec);
 		}
 	}
+
+
 }
 
 
