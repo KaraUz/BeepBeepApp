@@ -15,6 +15,7 @@ namespace BeepBeep
 	{
 		protected override void OnCreate(Bundle bundle)
 		{
+			//labas;
 			base.OnCreate(bundle);
 			SetContentView(Resource.Layout.Main);
 
