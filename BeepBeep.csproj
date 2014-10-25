@@ -107,6 +107,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_tab_whats_on_unselected.png" />
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\layout\FillLayout.axml" />
+    <AndroidResource Include="Resources\layout\OptionsLayout.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
