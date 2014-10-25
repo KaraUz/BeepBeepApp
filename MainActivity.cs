@@ -6,7 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Parse;
+using Xamarin.Auth;
+using System.Threading.Tasks;
 
 namespace BeepBeep
 {
@@ -22,14 +23,11 @@ namespace BeepBeep
 			CreateTab(typeof(OptionsActivity), "whats_on", "Options", Resource.Drawable.ic_tab_whats_on);
 			CreateTab(typeof(MapActivity), "speakers", "Map", Resource.Drawable.ic_tab_speakers);
 			CreateTab(typeof(FillActivity), "sessions", "Fill", Resource.Drawable.ic_tab_sessions);
-			CreateTab(typeof(ListActivity), "my_schedule", "List", Resource.Drawable.ic_tab_my_schedule);
+			CreateTab(typeof(PricesActivity), "my_schedule", "List", Resource.Drawable.ic_tab_my_schedule);
 			CreateTab(typeof(StatsActivity), "my_schedule", "Stats", Resource.Drawable.ic_tab_my_schedule);
 
-	
 		}
-		protected override void OnResume() {
 
-		}
 
 		private void CreateTab(Type activityType, string tag, string label, int drawableId )
 		{
@@ -44,8 +42,6 @@ namespace BeepBeep
 			TabHost.AddTab(spec);
 		}
 	}
-
-
 }
 
 

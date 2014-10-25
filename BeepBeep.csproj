@@ -53,6 +53,12 @@
     <Reference Include="Xamarin.Facebook">
       <HintPath>Components\facebookandroid-3.17.2.0\lib\android\Xamarin.Facebook.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Auth.Android">
+      <HintPath>Components\xamarin.auth-1.2.3\lib\android\Xamarin.Auth.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Components\json.net-4.5.11.1\lib\android\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -62,9 +68,10 @@
     <Compile Include="FillActivity.cs" />
     <Compile Include="StatsActivity.cs" />
     <Compile Include="OptionsActivity.cs" />
-    <Compile Include="ListActivity.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Station.cs" />
+    <Compile Include="CurrentUser.cs" />
+    <Compile Include="PricesActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -107,7 +114,6 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_tab_whats_on_unselected.png" />
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\layout\FillLayout.axml" />
-    <AndroidResource Include="Resources\layout\OptionsLayout.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -121,6 +127,14 @@
     </XamarinComponentReference>
     <XamarinComponentReference Include="facebookandroid">
       <Version>3.17.2.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamarin.auth">
+      <Version>1.2.3</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="json.net">
+      <Version>4.5.11.1</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
